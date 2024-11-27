@@ -65,11 +65,5 @@ def main():
                 st.write(f"The sample has a tumor with confidence: {confidence * 100:.2f}%")
             else:
                 st.write(f"The sample has no tumor with confidence: {(1 - confidence) * 100:.2f}%")
-
-            st.write("#### Model Metrics")
-            st.write(f"Accuracy: {metrics['accuracy']:.2%}")
-            st.write(f"Loss: {metrics['loss']:.4f}")
-            st.write(f"Precision: {metrics['precision']:.2%}")
-            st.write(f"Recall: {metrics['recall']:.2%}")
-            st.write(f"AUC: {metrics['auc']:.2%}")
+  
 
